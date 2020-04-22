@@ -1,0 +1,4 @@
+{
+    "mongoURI" : "mongodb+srv://Abhinav:Abhinav123@devconnector-wdyax.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret":"meySecretToken"
+}
