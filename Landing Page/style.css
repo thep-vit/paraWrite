@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'NATS Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('NATS Regular'), url('NATS-Regular.woff') format('woff');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background: url(./bgn.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+}
+
+
+
+.top{
+    width: 4rem;
+    display: block;
+    width: 100%;
+    
+}
+
+.top p{
+    font-family: 'NATS';
+    font-size: 2.2rem;
+    margin-top: -0.6rem;
+    margin-left: 0.6rem;
+    
+}
+
+main{
+    width: 100%;
+    font-family: 'NATS';
+    font-size: 7rem;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 0px;
+    
+
+}
+
+.l2{
+    width: 100%;
+    font-family: 'NATS';
+    font-size: 3rem;
+    text-align: center;
+    margin-top: -5rem;
+    letter-spacing: 0.8rem;
+    
+
+}
+
+.ill{
+    display: none;
+}
+
+
+@media only screen and (max-width: 375px) {
+    html{
+        background:white;
+    }
+
+    .ill{
+        display: flex;
+        justify-content:center ;
+        margin-top: 6rem;
+       
+    }
+
+    .ill img{
+        width:90%;
+    }
+
+    main{
+        width: 100%;
+        font-family: 'NATS';
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 0px;
+        
+    
+    }
+
+    .l2{
+        width: 100%;
+        font-family: 'NATS';
+        font-size: 2rem;
+        text-align: center;
+        margin-top: 3rem;
+        letter-spacing: 0.8rem;
+        
+    
+    }
+
+    .l2 p{
+        width: 100%;
+    }
+
+
+}
+
+
+
+
+
+
+
